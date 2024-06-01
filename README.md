@@ -1,2 +1,5 @@
-# edmonton_weather_aws_serverless_project
-This is an AWS data engineering serverless project  to track Edmonton weather in near real time using services like Kinesis Data Firehose, S3, AWS lambda, AWS Glue, Athena, IAM, 
+<img src="https://github.com/Joshua-omolewa/edmonton_weather_aws_serverless_project/blob/main/img/0-weather%20.png"  width="100%" height="100%">
+
+<h1 style="text-align: center;"> Edmonton weather AWS serverless Project </h1>
+The aim of this project is to ingest data from a weather API to monitor the weather condition in Edmonton. 
+
