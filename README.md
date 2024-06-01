@@ -12,4 +12,4 @@ The specific API URL endpoint used in this project to get edmonton weather data 
 
 
 ## DATA ARCHITECTURE
-<img src="https://github.com/Joshua-omolewa/edmonton_weather_aws_serverless_project/blob/main/img/Joshua-Omolewa-final%20Architecture.gif" style="width:100%; height:100%;"/>
+<img src="https://github.com/Joshua-omolewa/edmonton_weather_aws_serverless_project/blob/main/img/architetcure-01.gif" style="width:100%; height:100%;"/>
