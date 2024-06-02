@@ -16,7 +16,7 @@ The specific API URL endpoint used in this project to get edmonton weather data 
 ## DATA ARCHITECTURE
 <img src="https://github.com/Joshua-omolewa/edmonton_weather_aws_serverless_project/blob/main/img/Animation.gif" style="width:100%; height:100%;"/>
 
-## STEP USED TO COMPLETE THIS PROJECT
+## STEPS USED TO COMPLETE THIS PROJECT
 
 * I first queried the API endpoint using my web-browser to get a sense of the data I will be ingesting for my serverless ETL pipeline
 <img src="https://github.com/Joshua-omolewa/edmonton_weather_aws_serverless_project/blob/main/img/1.1-%20weather%20json%20payload.png" style="width:50%; height:50%;"/>
