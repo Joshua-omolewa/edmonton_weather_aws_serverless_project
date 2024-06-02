@@ -2,6 +2,8 @@
 
 <h1 style="text-align: center;">  AWS Serverless ETL Project for Edmonton weather data </h1>
 
+# Author: 👤 **Joshua Omolewa**
+
 ## Introduction
 The aim of this project is to build an ETL pipeline that will ingest Edmonton weather data from a weather API using AWS serverless resources and other AWS services (`Aws Lambda`, `AWS Eventbridge`, `AWS Kinesis Firehose`, `AWS Glue`, `AWS S3`, `AWS Athena`) and also monitor the weather condition in Edmonton using `Grafana` as a data visualization tool. 
 
@@ -38,3 +40,12 @@ The specific API URL endpoint used in this project to get edmonton weather data 
 * Finally, I created dasboard for data visualization using Grafana to monitor the weather condition in Canada. You can find the dashboard **[here](https://omolewajoshua.grafana.net/dashboard/snapshot/fPmxgqHjCmCOhXrKnB2ZJiO0Opdvxb56?orgId=1)**
   
 <img src="https://github.com/Joshua-omolewa/edmonton_weather_aws_serverless_project/blob/main/img/Grafana%20Dashboard.png" style="width:100%; height:100%;"/>
+
+# Follow Me On
+  
+* LinkedIn: [@omolewajoshua](https://www.linkedin.com/in/joshuaomolewa/)  
+* Github: [@joshua-omolewa](https://github.com/Joshua-omolewa)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
