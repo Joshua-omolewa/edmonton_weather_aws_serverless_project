@@ -18,8 +18,11 @@ The specific API URL endpoint used in this project to get edmonton weather data 
 
 * I first queried the API endpoint using my web-browser to get a sense of the data I will be ingesting for my serverless ETL pipeline
 <img src="https://github.com/Joshua-omolewa/edmonton_weather_aws_serverless_project/blob/main/img/1.1-%20weather%20json%20payload.png" style="width:50%; height:50%;"/>
-* I created all the component (`Aws Lambda`, `AWS Eventbridge`, `AWS Kinesis Firehose`, `AWS Glue (Glue crawler & Glue database called weather-db)`, `AWS S3`, `AWS Athena`) in the data architecture using AWS console and adding all the necessary IAM permissions, policy and roles 
+
+* I created all the component (`Aws Lambda`, `AWS Eventbridge`, `AWS Kinesis Firehose`, `AWS Glue (Glue crawler & Glue database called weather-db)`, `AWS S3`, `AWS Athena`) in the data architecture using AWS console and adding all the necessary IAM permissions, policy and roles. The Glue crawler points to the S3 bucket that will contain the raw data. Also, I created a database in Glue to contain all tables for this project
+  
 <img src="https://github.com/Joshua-omolewa/edmonton_weather_aws_serverless_project/blob/main/img/AWS_services.png" style="width:100%; height:100%;"/>
+
 * The `AWS eventbridge` is used to trigger the pipline every 1 minute so I am able to ingest data every 1 minute. Please note that additional S3 bucket were created for AWS athena to store its query result. I created three S3 bucket to store the raw data, store the transformed intermediate data and the last S3 bucket stores the transfromed production data which passes the data quality check
 <img src="https://github.com/Joshua-omolewa/edmonton_weather_aws_serverless_project/blob/main/img/S3%20buckets.png" style="width:100%; height:100%;"/>
 
