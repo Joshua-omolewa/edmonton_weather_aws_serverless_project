@@ -37,7 +37,7 @@ The specific API URL endpoint used in this project to get edmonton weather data 
 
 <img src="https://github.com/Joshua-omolewa/edmonton_weather_aws_serverless_project/blob/main/img/prod%20table%20samples.png" style="width:100%; height:100%;"/>
 
-* Finally, I created dasboard for data visualization using Grafana to monitor the weather condition in Canada. You can find the dashboard **[here](https://omolewajoshua.grafana.net/dashboard/snapshot/fPmxgqHjCmCOhXrKnB2ZJiO0Opdvxb56?orgId=1)**
+* Finally, I created a dashboard for data visualization using Grafana to monitor the weather condition in Canada. You can find the dashboard **[here](https://omolewajoshua.grafana.net/dashboard/snapshot/fPmxgqHjCmCOhXrKnB2ZJiO0Opdvxb56?orgId=1)**
   
 <img src="https://github.com/Joshua-omolewa/edmonton_weather_aws_serverless_project/blob/main/img/Grafana%20Dashboard.png" style="width:100%; height:100%;"/>
 
